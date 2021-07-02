@@ -1,0 +1,133 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Sherries Pies</title>
+</head>
+<body>
+    <main role="main">
+        <header>
+            <nav class="navbar navbar-collapse fixed-top navbar-expand-sm bg-warning navbar-dark">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">
+                <img src="images/pie.png" height="30" width="30" class="d-inline-block align-top">
+                Sherries Pies
+                </a><!--END OF INDEX-->
+        
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav mr-auto">
+                    <li class="nav-item active"> 
+                    <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-expanded="true" aria-haspopup="true">Pies</a>
+                        <div class="dropdown-menu">
+                            <a href="pies.html" class="dropdown-item">All Pies</a>
+                            <a href="seasonalpies.html" class="dropdown-item">Seasonal Pies</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="applepie.html" class="dropdown-item">Speciality Pies</a>
+                        </div>
+                    </li>
+                   
+                    <li class="nav-item">
+                    <a href="orderform.html" class="nav-link">Order Now</a>
+                    </li>
+                    </ul>
+                </div>
+            </div><!--END OF CONTAINER-->
+            </nav>
+            </header><!--END OF HEADER-->
+
+
+        <div class="container pt-3">
+            <h1>Apple Pie
+                <small class="text-monospace">A slice a day will kep the doctor away.</small>
+            </h1> 
+            <div class="row">
+                <div class="col-lg-8">
+                    <img src="images/products/applepie.jpg" alt="Image of apple pie" class="img-fluid border border-danger">
+                </div>
+                <div class="col-lg-4">
+                    <h3 class="text-uppercase">About this pie</h3>
+                    <p class="text-justify">Sweet ice cream jelly beans lemon drops. Pastry toffee fruitcake gingerbread jelly-o.
+                        <strong> Lollipop sesame</strong> snaps muffin. Macaroon halvah marshmallow sesame snaps sugar plum dragée.
+                        Wafer pudding sesame snaps <mark> tootsie roll sesame snaps cake chupa chups jelly beans.</mark></p>
+                    <h3>Ingredients</h3>
+                    <ul>
+                        <li>Apple</li>
+                        <li>Sugar</li>
+                        <li>Eggs</li>
+                        <li>Milk</li>
+                    </ul>
+                    <div class="row m-2">
+                        <div class="col-md-4">
+                            <strong>$14.95</strong>
+                        </div>
+                        <div class="col-md-8">
+                            <a type="button" href="shoppingbasket.html" data-toggle="modal" data-target="#addToBasketModal" class="btn btn-primary float-right">
+                                Add to basket
+                            </a>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="row">
+                <div class="p-2 mb-4 mt-5 col-12 bg-light border-primary">
+                    <h4>When Her Pies Talks, They Say...</h4>
+                    <p class="text-center">Bam.Bam.Bam Thats Strawberry Jam.</p>
+                </div>
+            </div>
+            <h3 class="display-4 m-4">Other Customers Purchased</h3>
+            <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <a href="">
+                            <img src="images/products/cheesecakesmall.jpg" alt="cheesecakesmall" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                       <a href="">
+                        <img src="images/products/strawberrycheesecakesmall.jpg" alt="strawberrycheesecakesmall" class="img-fluid">
+                       </a>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <a href="">
+                            <img src="images/products/peachpiesmall.jpg" alt="christmasapplepie" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <a href="">
+                            <img src="images/products/christmasapplepiesmall.jpg" alt="christmasapplepie" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="modal fade" id="addToBasketModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">TEST</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div> 
+                 <div class="modal-body">
+                    <p>TEST 1.2.3.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Continue Shopping</button>
+                    <button type="button" class="btn btn-primary">View Basket</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
